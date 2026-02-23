@@ -1,0 +1,16 @@
+timestamp,source,ip_address,event_type,severity,description,region
+2026-02-18T08:10:00Z,gov-network,10.0.0.21,failed_login,medium,Multiple failed admin login attempts,North
+2026-02-18T08:12:00Z,banking-soc,10.1.5.34,phishing,high,Suspicious phishing domain targeting users,West
+2026-02-18T08:14:00Z,telecom-core,10.2.8.10,ddos,critical,Traffic spike suggestive of volumetric DDoS,South
+2026-02-18T08:18:00Z,cloud-provider,10.3.7.90,data_exfiltration,critical,Unusual outbound transfer to unknown host,Central
+2026-02-18T08:21:00Z,iot-hub,10.4.1.12,malware,high,Malicious binary signature detected on edge gateway,East
+2026-02-18T08:24:00Z,gov-network,10.0.0.22,failed_login,low,Single invalid login attempt,North
+2026-02-18T08:28:00Z,defense-net,10.5.9.45,intrusion,critical,Lateral movement pattern matched known APT,North
+2026-02-18T08:33:00Z,healthcare-cloud,10.6.2.11,ransomware,critical,File encryption behavior detected on server,West
+2026-02-18T08:36:00Z,banking-soc,10.1.5.36,credential_stuffing,high,High-rate login attempts across accounts,West
+2026-02-18T08:40:00Z,telecom-core,10.2.8.13,botnet,medium,C2-like periodic communication observed,South
+2026-02-18T08:44:00Z,iot-hub,10.4.1.14,firmware_tamper,high,Unsigned firmware update attempt blocked,East
+2026-02-18T08:47:00Z,cloud-provider,10.3.7.92,sql_injection,medium,Injection payload detected in API traffic,Central
+2026-02-18T08:50:00Z,gov-network,10.0.0.25,privilege_escalation,high,Sudo abuse behavior identified,North
+2026-02-18T08:55:00Z,energy-grid,10.7.1.77,scada_probe,critical,Unexpected ICS command sequence detected,South
+2026-02-18T09:00:00Z,education-net,10.8.0.41,phishing,medium,Mass phishing email campaign flagged,East
